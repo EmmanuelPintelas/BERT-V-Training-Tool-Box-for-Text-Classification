@@ -6,9 +6,7 @@ Moreover, we developed a Validation (V) algorithm in order to efficiently train 
   
 The proposed validation algorithm mainly updates the learning rate of the training procedure with respect to the validation accuracy. Also, if no further improvement is performed, the model weights are switched back into the ones who managed to bring the highest latest score. This is performed in order to avoid local optimum solutions by finding the optimum network weights parameters which maximizes the final performance score.
   
-We compared the BERT-V with:
-
-  TfidfVectorizer, RNNs, Transformer, BERT.
+We compared the BERT-V with: TfidfVectorizer, RNNs, Transformer, BERT.
   
   The training-testing implementation links are in:
   
